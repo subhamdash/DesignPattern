@@ -1,0 +1,39 @@
+Creational Patterns are concerned with object creation problems faced duringsoftware design.
+Object creation often results in design problems, creational patterns solve this problem by controlling the object creation.
+A Factory Pattern or Factory Method Pattern says that just define aninterface or abstract class for creating an object but let the
+subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class.
+
+//As we can pass a object as parameter in a similar manner we can reuturn a objeect as well.
+
+//The Factory Method Pattern is also known as Virtual Constructor
+
+#A concrete class is a class that provides complete implementation for all its methods and can be directly instantiated.
+It is a class that is not abstract and can be used to create objects.
+A concrete class may define its own properties (fields) and behaviors (methods),
+and it can also inherit properties and behaviors from parent classes or interfaces.
+Concrete classes are typically used to represent specific objects or entities in a system.
+
+# A Factory returns an instance of an object based on the data suppliedto it.
+
+#The instance returned can be one of many classes that extend a common parent class or interface.
+("Animal" as a parent class, then "Dog", "Cat", "Zebra" as child classes.)
+    (I had a doubt like why we cannot just put if and else and go for the object according to the statement
+    Like if we want to access the Dog object from the animal so we could check if we want dog and instansiate in if block)
+    We can't do that because for the below reason:-
+
+#Create objects without exposing their instantiation logic.
+#Consequences: The requestor is independent of the concrete object
+ that is created (how that object is created, and which class is actually
+ created).
+
+ //Helps to create loose-coupling by eliminating the need to bind code.
+ THe code soleley intertact with abstract class. it will work with any class that implements that interface or that
+ extends that abstract class.
+
+
+
+
+
+
+
+
