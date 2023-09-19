@@ -1,0 +1,17 @@
+So we can see we were able to add
+1.AccOnCommand
+2.AcOffCommand -Not Implemeted
+3.LigtOnCommand
+4.LigtOffCommand- NOt Implemeted
+5.AccTempcommand.
+
+We could have include the tempup,tempdown, volumeup,volumedown functionalites to the the code without
+impacting the Command Class.
+IF we need any new features we need to contact with our Reciever Class( Light and Ac) and ConcreteCommand class.
+
+MyRemoteController is just a Invoker class whose main objective is to just hold the reference object and can
+trigger command execution .It doens't need to know any details how the command are getting executed.
+
+
+We need to see the Better Code for Undo and Redo in our Next Version(v3)
+
