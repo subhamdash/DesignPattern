@@ -1,0 +1,4 @@
+For Undo and Redo we could have used a Array List but that would be problem if we are doing undoing and redoing
+many number of times and it's better to use Two Stack for Undoing and Redoing we could have also used a
+Doubly LInked List but that is diffiuclt to use and we can see
+We need to add in our Air Conditioner Class and we can have Concrete command class implemeted for it
